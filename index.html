@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css" />
+  <title>Showlist</title>
+</head>
+
+<body>
+  <header>
+    <h1>Showlist</h1>
+    <div class="menu">
+      <p>show
+        <select id="airing" onchange="airtime()">
+          <option value="today">Today</option>
+          <option value="tomorrow">Tomorrow</option>
+        </select>
+        airing shows
+      </p>
+
+      <button onclick="refreshData()">Refresh</button>
+    </div>
+  </header>
+  <main>
+    <table id="show-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Episode N.o</th>
+        </tr>
+      </thead>
+      <tbody>
+        <td>9 1 1 (Season 6)</td>
+        <td>15</td>
+        </tr>
+        <tr>
+          <td>All American (Season 5)</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>American Idol (Season 21)</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>Basketball Wives (Season 10)</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>Below Deck Sailing Yacht (Season 4)</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Blue Lights (Season 1)</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Fantasy Island (Season 2)</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>Perry Mason (Season 2)</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Rain Dogs (Season 1)</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Shelved (Season 1)</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>That's My Jam (Season 2)</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>The Brokenwood Mysteries (Season 9)</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>The Good Doctor (Season 6)</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>The Kelly Clarkson Show (Season 4)</td>
+          <td>141</td>
+        </tr>
+        <tr>
+          <td>The Late Late Show (Season null)</td>
+          <td>1194</td>
+        </tr>
+        <tr>
+          <td>The Real Housewives of Cheshire (Season 16)</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Wheeler Dealers (Season 18)</td>
+          <td>6</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+<script src="aniscript.js"></script>
+
+</html>
