@@ -2,22 +2,27 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   background-color: black;
   color: aliceblue;
-  width: 400px;
-  overflow-y: overlay;
+  width: 380px;
+  overflow-y: scroll;
 }
+
 h1 {
   text-align: center;
+  margin: 11px 0 13px;
 }
+
 .menu {
   display: flex;
   flex-direction: row;
-  gap: 30px;
-  justify-content: space-between;
-  margin: 11px 0 24px;
+  gap: 5px;
+  justify-content: center;
+  margin: 11px 0 13px;
 }
+
 .menu > p {
   padding-left: 20px;
 }
@@ -26,11 +31,19 @@ h1 {
   justify-self: flex-end;
   padding: 5px;
 }
+
+select#airing {
+  background-color: black;
+  color: aliceblue;
+  border: 2px blue solid;
+  border-radius: 8px;
+  padding: 3px;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
 }
-
 
 th,
 td {
